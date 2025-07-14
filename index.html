@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <h3>Get in Touch</h3>
+      <input type="hidden" name="access_key" value="6af58d11-3270-487c-b3df-049c64a43b38">
+      <input type="text" name='name' id="name" placeholder="Your Name" required>
+      <input type="email" name='mail' id="email" placeholder="Your Email" required>
+      <input type="number" name='phone' id="phone" placeholder="Your Phone-Number" required>
+      <textarea id="message" name='message' rows="4" placeholder="How we can help you"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+ 
+  <script src="app.js"></script>
+</body>
+
+</html>
